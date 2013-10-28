@@ -1,0 +1,49 @@
+#video {
+  margin: 20px;
+}
+
+#skip {
+  margin-top: 20px;
+}
+
+input.form-control {
+  width: 80%;
+}
+
+button.form-control {
+  width: 19%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background-image: url("../img/bg.png");
+}
+
+.list {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 500px;
+}
+
+.title {
+  margin-top: 30px;
+  font-size: 20px;
+  margin-left: 10%;
+}
+
+.past-search {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 10px;
+}

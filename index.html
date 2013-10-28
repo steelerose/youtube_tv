@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Youtube TV</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>YouTube TV</h1>
+      <hr>
+      <form id="search" class="form-inline">
+        <input name="q" id="keywords" type="text" class="form-control" placeholder="Enter A Search Term"></input>
+        <button id="search" class="btn btn-info form-control" type="submit">Search</button>
+      </form>
+
+      <div id="video">
+        <div id="player"></div>
+      </div>
+      <button id="skip" class="btn btn-info btn-block">Next Video</button>
+      <p class="title"><em>Recent Searches:</em></p>
+      <div class="list"><span class="history"></span></div>
+    </div>
+  </body>
+</html>
+
+
